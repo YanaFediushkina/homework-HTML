@@ -1,0 +1,15 @@
+body{
+    background: url("assets/hw1_3.avif") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+p, h1, h6 {
+    background-color: rgba(247, 240, 237, 0.9) ;
+    width: 60%;
+    margin: 50px 80px;
+    padding: 20px;
+}
+p {
+    font-size: 20px;
+}
