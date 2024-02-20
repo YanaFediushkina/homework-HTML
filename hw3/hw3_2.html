@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        section {
+            padding: 0 100px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section a {
+            text-decoration: none;
+        }
+
+        #brown {
+            background-color: brown;
+            fill: black;
+        }
+
+        #blue {
+            background-color: powderblue;
+        }
+
+        #green {
+            background-color: forestgreen;
+        }
+
+        .top {
+            transform: rotate(180deg)
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<section id="brown">
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+    <a href="#blue"><img src="arrow.svg" alt="arrow"></a>
+</section>
+<section id="blue">
+    <a href="#brown"><img src="arrow.svg" alt="arrow" class="top"></a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+    <a href="#green"><img src="arrow.svg" alt="arrow"></a>
+</section>
+<section id="green">
+    <a href="#blue"><img src="arrow.svg" alt="arrow" class="top"></a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus exercitationem illo in laboriosam
+        officiis quasi qui? Amet beatae dicta impedit, itaque libero omnis possimus qui quidem sapiente similique
+        totam.</p>
+</section>
+</body>
+</html>
